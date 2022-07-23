@@ -7,11 +7,12 @@
 }
 
 .img-book {
-  width: 200px;
+  width: 150px;
 }
 
 .breadcrumb {
   display: inline-block;
+  background-color: #555;
 }
 
 .breadcrumb:not(:last-of-type)::after {
@@ -32,21 +33,115 @@ header li {
   display: inline-block;
 }
 
-.topnav {
-  position: static;
-  height: 50px;
-  width: 500px;
-  padding: 20px;
-  margin: 25px;
-  border
-  float: right;
+.menu {
+  max-width: 1280;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: red;
+  border: 5px static black;
 }
 
+.topnav {
+  color: white;
+  color-scheme: ;
+  margin: 0 16px;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 99px;
+}
 
-.category {
-  position: relative;
+a {
+  color: white;
+}
+
+body {
+  color: white
+}
+
+.Category {
+  color: white;
+  background-color: rgb(29, 29, 29);
+  top: 300px;
+  display: static;
+  max-width: 1280;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  top: 50px;
 }
 
 .Book {
-  display: inline-block;
+  max-width: 1280;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 5px static black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+footer {
+  max-width: 1280;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color:red;
+  border: 5px static black;
+}
+
+.sell-book {
+  color: white;
+  background-color: rgb(29, 29, 29);
+  top: 300px;
+  display: static;
+  max-width: 1280;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  top: 50px;
+}
+
+.description {
+  color: white;
+  background-color: rgb(29, 29, 29);
+  top: 300px;
+  display: static;
+  max-width: 1280;
+  margin: 0 auto;
+
+ 
+}
+
+.contact {
+  color: white;
+  background-color: rgb(29, 29, 29);
+  top: 300px;
+  display: static;
+  max-width: 1280;
+  max-height: 1280;
+  margin: 0 auto;
+}
+
+.contact-form {
+  color: white;
+  background-color: rgb(29, 29, 29);
+  top: 300px;
+  display: static;
+  max-width: 1280;
+  margin: 0 auto;
 }
