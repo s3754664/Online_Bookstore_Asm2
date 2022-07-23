@@ -1,22 +1,52 @@
 .img-logo {
-  width: 40px;
+  width: 80px;
   border: 5px solid #555;
   border-radius: 8px;
   padding: 1px;
+  float: left;
 }
 
 .img-book {
-  width: 70px;
+  width: 200px;
 }
 
 .breadcrumb {
   display: inline-block;
 }
 
+.breadcrumb:not(:last-of-type)::after {
+  content: '>';
+  margin: 0 1px;
+  color: black;
+}
+
 .img-buybooklarge {
-  width: 300px;
+  width: 500px;
 }
 
 .img-buybooksmall {
   width: 70px;
+}
+
+header li {
+  display: inline-block;
+}
+
+.topnav {
+  position: static;
+  height: 50px;
+  width: 500px;
+  padding: 20px;
+  margin: 25px;
+  border
+  float: right;
+}
+
+
+.category {
+  position: relative;
+}
+
+.Book {
+  display: inline-block;
 }
